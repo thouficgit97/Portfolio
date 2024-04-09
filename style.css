@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+#brightness{
+    margin-left:px;
+    height:35px;
+    border-radius: 50%;
+    width: 45px;
+}
+ body{
+    background-color:#111010 ;
+    color: #ffffff;
+}
+#name{
+  margin-right: 40%;
+  font-size:25px;
+  font-weight: 700;
+  margin-top:5px;
+  padding: 5px;
+  color:rgb(255, 213, 0);
+  cursor:pointer;
+
+} 
+#navbar{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    padding: 15px;
+    border-bottom: 1px solid wheat;
+    background-color: black;
+}
+#navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 25px;
+    padding:2px;
+    margin-right:25px;
+}
+#navbar a:hover{
+
+    border-bottom: 1px solid white;
+    color:rgb(255, 213, 0);
+    border-radius: 2px;
+    transition: 0.2s;
+}
+#about-me{
+    width:1100px;
+    font-size:35px;
+}
+#about-me-name{
+    color:rgb(255, 213, 0);
+    font-size:52px;
+}
+#websites{
+    text-decoration: none;
+    margin-top:20%;
+    margin-left:35%;
+}
+#websites a{
+    margin-right:50px;
+    font-size: 5rem;
+    color:white;
+}
+#websites a:hover{
+    color: rgb(255, 213, 0);
+}
+#intro{
+    margin-left:50px; 
+    margin-top:10%;
+}
+#photo{
+    border-radius: 50%;
+    height:320px;
+    width:320px;
+    border:1px solid rgb(255, 213, 0);
+    box-shadow: 2px 2px 25px 5px rgb(255, 170, 0) ;
+    position:absolute;
+    top:25%;
+    right:10%;
+}
+#photo:hover{
+    cursor:pointer;
+    transition: .2s ease-in-out;
+    box-shadow: 2px 2px 25px 11px rgb(255, 170, 0) ;
+}
+#project-container{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap:50px;
+}
+#Projects{
+    margin-top: 12%;
+}
+.projects{
+    border:none;
+    box-shadow: 2px 2px 25px 1px  rgb(156, 145, 122) ;
+}
+#projects-heading{
+    color:rgb(255, 213, 0); ;
+    font-size:35px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.projects h3{
+    color:yellow;
+    text-align: center;
+}
+.projects p{
+    margin-top: 40px;
+    text-align: justify;
+}
+.projects{
+    background-color:  rgba(0, 255, 64, 0.791);
+    color:rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-left: 4%;
+    font-size:25px;
+    height:400px;
+    width:500px;
+    padding: 15px;
+    border:1px solid grey;
+}
+.projects:hover{
+    transform: scale(1.05);
+    
+}
+.code{
+    margin-left: 52px;
+    position: relative;
+}
+#skills-heading{
+    margin-top:95px;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 5%;
+}
+#Skills img{
+    margin-left:49px;
+    height: 199px;
+    width:199px;
+}
+.ext-link{
+   position: relative;
+   right:34px;
+   text-decoration: none;
+}
+/* media queries */
